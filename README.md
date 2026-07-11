@@ -49,7 +49,7 @@ Variable wiring (lives in the template composer; documented here for maintenance
 Notes and limits:
 
 - Workers default to concurrency 10; scale replicas (or set `N8N_CONCURRENCY_PRODUCTION_LIMIT`) as load grows.
-- Manual editor executions are offloaded to workers too (`N8N_OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS=true`), so the main instance stays responsive.
+- Manual editor executions are offloaded to workers too (`OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS=true` — no `N8N_` prefix on this one), so the main instance stays responsive.
 - Worker health endpoints (`/healthz`, `/healthz/readiness`) are enabled for Railway healthchecks.
 - All three n8n services must run the same image version; upgrade them together.
 

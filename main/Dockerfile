@@ -5,7 +5,7 @@ FROM n8nio/n8n:2.29.10
 # QUEUE_BULL_REDIS_DUALSTACK is required on Railway: BullMQ's ioredis
 # defaults to IPv4 and Railway private DNS is IPv6-only.
 ENV EXECUTIONS_MODE=queue \
-    N8N_OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS=true \
+    OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS=true \
     DB_TYPE=postgresdb \
     DB_POSTGRESDB_PORT=5432 \
     DB_POSTGRESDB_DATABASE=n8n \
