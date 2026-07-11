@@ -1,6 +1,6 @@
 # Deploy and Host n8n (Queue Mode) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/n8n-queue?utm_medium=integration&utm_source=button&utm_campaign=n8n-queue)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SKd9dS?utm_medium=integration&utm_source=button&utm_campaign=n8n-queue)
 
 [n8n](https://n8n.io/) is the workflow automation platform: connect 400+ services, build AI agents with built-in LangChain nodes, and automate anything from webhooks to scheduled jobs. This template runs it in **queue mode** — n8n's production architecture — instead of the single-process setup most templates ship.
 
