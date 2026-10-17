@@ -1,4 +1,4 @@
-FROM n8nio/n8n:2.29.10
+FROM n8nio/n8n:2.43.7
 
 # Dedicated webhook processor: production webhook traffic keeps flowing
 # while the main instance restarts or redeploys.
