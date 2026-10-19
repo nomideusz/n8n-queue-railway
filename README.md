@@ -21,7 +21,7 @@ Five Railway services: the main instance (editor UI, queue producer), horizontal
 ### Deployment Dependencies
 
 - [n8n queue mode documentation](https://docs.n8n.io/hosting/scaling/queue-mode/)
-- [Template source on GitHub](https://github.com/nomideusz/n8n-queue-railway)
+- [Template source on GitHub](https://github.com/two-workspaces/n8n-queue)
 
 ### Implementation Details
 
