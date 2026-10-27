@@ -1,4 +1,4 @@
-FROM n8nio/n8n:2.43.7
+FROM n8nio/n8n:2.44.7
 
 # Queue consumer — scale replicas horizontally for throughput. Stateless:
 # shares state via Postgres + the N8N_ENCRYPTION_KEY env (must match main).

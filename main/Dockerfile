@@ -1,4 +1,4 @@
-FROM n8nio/n8n:2.43.7
+FROM n8nio/n8n:2.44.7
 
 # Main instance: editor UI + API + queue producer. Executions run on the
 # worker service; webhook traffic lands on the webhook service.
