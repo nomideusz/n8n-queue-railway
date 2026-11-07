@@ -1,5 +1,5 @@
 # upgrade: npm n8n
-FROM n8nio/n8n:2.45.7
+FROM n8nio/n8n:2.46.6
 
 # Dedicated webhook processor: production webhook traffic keeps flowing
 # while the main instance restarts or redeploys.
