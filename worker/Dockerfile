@@ -1,5 +1,5 @@
 # upgrade: npm n8n
-FROM n8nio/n8n:2.47.3
+FROM n8nio/n8n:2.47.4
 
 # Queue consumer — scale replicas horizontally for throughput. Stateless:
 # shares state via Postgres + the N8N_ENCRYPTION_KEY env (must match main).

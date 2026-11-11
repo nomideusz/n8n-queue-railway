@@ -1,5 +1,5 @@
 # upgrade: npm n8n
-FROM n8nio/n8n:2.47.3
+FROM n8nio/n8n:2.47.4
 
 # Main instance: editor UI + API + queue producer. Executions run on the
 # worker service; webhook traffic lands on the webhook service.
